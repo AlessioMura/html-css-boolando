@@ -8,7 +8,6 @@
 :root {
     --banner: #ff6900;
     --sales: #ff0000;
-    --sost: #008000;
     --footer: #1a1a1a;
 }
 
@@ -26,6 +25,12 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+            gap: 1rem;
 }
 
 /* #endregion utilities */
@@ -45,8 +50,7 @@ a {
 
     ul {
         display: flex;
-        list-style: none;
-        justify-content: space-between;
+
 
         a {
             color: white;
@@ -67,19 +71,50 @@ a {
     gap: 10px;
     padding-top: 3rem;
     justify-content: center;
+    position: relative;
+    margin-bottom: 3rem;
 }
 
 .products img {
     width: 300px;
+
 }
 
-.caption{
+.caption {
     font-size: 12px;
 }
 
-.span_red{
+.span_red {
     color: var(--sales);
 }
-.span_line{
+
+.span_line {
     text-decoration: line-through;
+}
+
+.sale {
+    position: absolute;
+    bottom: 15%;
+    background-color: var(--sales);
+    color: white;
+    padding: 2px;
+}
+
+.like_btn {
+    position: absolute;
+    bottom: 83%;
+    background-color: white;
+    padding: .5rem;
+}
+
+
+.footer_bg{
+    background-color: var(--footer);
+    color: white;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.fab{
+    color: white;
 }
