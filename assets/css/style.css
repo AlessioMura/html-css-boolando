@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #region utilities */
+:root {
+    --banner: #ff6900;
+    --sales: #ff0000;
+    --sost: #008000;
+    --footer: #1a1a1a;
+}
+
+body {
+    min-width: 1440px;
+}
+
+.container{
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+/* #endregion utilities */
+
+/* #region header */
+
+.banner {
+    background-color: var(--banner);
+    justify-content: space-around;
+    align-items: center;
+    min-height: 5rem;
+    flex-grow: 1;
+
+    .logo {
+        width: 8%;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        a {
+            color: white;
+        }
+    }
+
+    .side_menu {
+        color: white;
+    }
+}
+
+/* #endregion header */
