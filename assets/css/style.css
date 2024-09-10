@@ -13,10 +13,10 @@
 }
 
 body {
-    min-width: 1440px;
+    min-width: 1920px;
 }
 
-.container{
+.container {
     margin: auto;
 }
 
@@ -27,6 +27,7 @@ body {
 a {
     text-decoration: none;
 }
+
 /* #endregion utilities */
 
 /* #region header */
@@ -46,6 +47,7 @@ a {
         display: flex;
         list-style: none;
         justify-content: space-between;
+
         a {
             color: white;
         }
@@ -57,3 +59,27 @@ a {
 }
 
 /* #endregion header */
+
+/* #region main */
+
+.products {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 3rem;
+    justify-content: center;
+}
+
+.products img {
+    width: 300px;
+}
+
+.caption{
+    font-size: 12px;
+}
+
+.span_red{
+    color: var(--sales);
+}
+.span_line{
+    text-decoration: line-through;
+}
