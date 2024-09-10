@@ -106,8 +106,9 @@ ul {
     background-color: white;
     padding: .5rem;
 }
+/* #endregion main */
 
-
+/* #region footer */
 .footer_bg{
     background-color: var(--footer);
     color: white;
@@ -115,6 +116,4 @@ ul {
     padding: 2rem 0;
 }
 
-.fab{
-    color: white;
-}
+/* #endregion footer */
