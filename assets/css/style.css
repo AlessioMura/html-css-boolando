@@ -55,8 +55,6 @@ z-index: 1;
 
     ul {
         display: flex;
-
-
         a {
             color: white;
         }
@@ -83,6 +81,18 @@ z-index: 1;
 .products img {
     width: 300px;
 
+}
+
+.images .back{
+    display: none;
+}
+
+.images:hover .back{
+    display: inline-block;
+}
+
+.images:hover .front {
+    display: none;
 }
 
 .caption {
