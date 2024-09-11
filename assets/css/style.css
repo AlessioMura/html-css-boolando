@@ -36,6 +36,11 @@ ul {
 /* #endregion utilities */
 
 /* #region header */
+#app_header {
+position: sticky;
+top: 0;
+z-index: 1;
+}
 
 .banner {
     background-color: var(--banner);
